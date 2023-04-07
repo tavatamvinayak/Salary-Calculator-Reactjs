@@ -80,9 +80,9 @@ function Annualsalary() {
 
                             <h1 >Anual Salary</h1>
 
-                            <input className='m-1 border-success rounded-pill ' type="number " style={inptstyle} placeholder="   enter Anual Salary" name='AnualSalary' onChange={handleInput1} /><br />
-                            <input className='m-1 border-success rounded-pill ' type="number" style={inptstyle} placeholder="    how many days you work" name='Workingdays' onChange={handleInput2} /><br />
-                            <input className='m-1 border-success rounded-pill ' type="number" style={inptstyle} placeholder="    how many hours you work" name='WorkingHours' onChange={handleInput3} />
+                            <input className='m-1 border-success rounded-pill ' type="number " style={inptstyle} placeholder="   Enter Anual Salary" name='AnualSalary' onChange={handleInput1} /><br />
+                            <input className='m-1 border-success rounded-pill ' type="number" style={inptstyle} placeholder="    1 month how many days you work" name='Workingdays' onChange={handleInput2} /><br />
+                            <input className='m-1 border-success rounded-pill ' type="number" style={inptstyle} placeholder="    1 day how many hours you work" name='WorkingHours' onChange={handleInput3} />
                             <br /><button onClick={calculator1} className=' p-1 m-1 bg-warning border-success rounded-pill'>Calculate   </button>  <button className='p-1 border-success rounded-pill' onClick={clear}> All Clear</button>
                             <p>monthly salary</p>
                             <h1 > {Monthly} </h1>
